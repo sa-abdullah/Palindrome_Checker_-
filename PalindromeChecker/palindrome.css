@@ -1,0 +1,87 @@
+*, 
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}; 
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    background-color: #0A0A23;
+    width: 100vw;
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#palindrome {
+    width: 40%;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    gap: 70px;
+    padding: 20px;
+}
+
+#toptxt {
+    font-size: 20px;
+}
+
+#text-input {
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid purple;
+}
+
+#check-btn {
+    background-color: purple;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+
+#result {
+    color: black;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+
+#info {
+    width: 40%;
+    height: 100px;
+    background: #00471B;
+    border-radius: 15px;
+    display: flex;
+    color: white;
+    padding: 10px;
+    gap: 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
